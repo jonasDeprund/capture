@@ -21,7 +21,34 @@ button{
     color: white;
     transition: all 0.5s ease;
     &:hover{
-        
+        background-color: #23b997;
+        color: white;
     }
 }
+
+h2{
+    font-weight: lighter;
+    font-size: 4rem;
+}
+h3{
+    color: white;
+}
+h4{
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+    color: #23b997;    
+}
+a{
+    font-size: 1.1rem
+}
+p{
+    padding: 3rem 0rem;
+    color: #cccccc;
+    font-size: 1.4rem;
+    line-height: 150%;
+}
 `
+
+export default GlobalStyle
