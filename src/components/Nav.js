@@ -46,6 +46,7 @@ const StyledNav = styled.nav`
     li{
         padding-left: 10rem;
         position: relative;
+        padding-top: 1rem;
     }
 `
 
