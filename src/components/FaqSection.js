@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { About } from '../styles'
 import Toggle from './Toggle'
+import { AnimateSharedLayout } from 'framer-motion'
 
 const FaqSection = () => {
   return (
@@ -9,9 +10,26 @@ const FaqSection = () => {
       <h2>
         Any Questions <span>Faq</span>
       </h2>
-      <Toggle>
-        <div className="question">
-          <h4>How do I start ?</h4>
+      <AnimateSharedLayout>
+        <Toggle title="How do I start ?">
+          <div className="answer">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, quidem.
+            </p>
+          </div>
+        </Toggle>
+        <Toggle title="Daily Schedule">
+          <div className="answer">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, quidem.
+            </p>
+          </div>
+        </Toggle>
+        <Toggle title="Different method payment">
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
@@ -20,11 +38,8 @@ const FaqSection = () => {
             </p>
           </div>
           <div className="faq-line"></div>
-        </div>
-      </Toggle>
-      <Toggle>
-        <div className="question">
-          <h4>Daily Schedule</h4>
+        </Toggle>
+        <Toggle title="What product do you offer?">
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
@@ -32,35 +47,8 @@ const FaqSection = () => {
               Exercitationem, quidem.
             </p>
           </div>
-          <div className="faq-line"></div>
-        </div>
-      </Toggle>
-      <Toggle>
-        <div className="question">
-          <h4>Different method payment</h4>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem, quidem.
-            </p>
-          </div>
-          <div className="faq-line"></div>
-        </div>
-      </Toggle>
-      <Toggle>
-        <div className="question">
-          <h4>What product do you offer</h4>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem, quidem.
-            </p>
-          </div>
-          <div className="faq-line"></div>
-        </div>
-      </Toggle>
+        </Toggle>
+      </AnimateSharedLayout>
     </Faq>
   )
 }
