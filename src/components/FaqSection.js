@@ -46,7 +46,7 @@ const FaqSection = () => {
           <div className="answer">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit sum.
               Exercitationem.
             </p>
           </div>
