@@ -47,7 +47,7 @@ const FaqSection = () => {
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem, quidem.
+              Exercitationem.
             </p>
           </div>
         </Toggle>
